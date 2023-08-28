@@ -1,3 +1,9 @@
+// 🇨🇭 swiss knife of cairo tools
+// - scarb
+// - katana
+// - 
+
+
 {
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "hostRequirements": {
@@ -7,7 +13,7 @@
     "updateContentCommand": "python3 -m pip install -r notebooks/requirements.txt",
 
 
-    // swiss knife of cairo tools
+    
     // install scarb
     // curl --proto '=https' --tlsv1.2 -sSf https://docs.swmansion.com/scarb/install.sh | sh 
     
@@ -16,8 +22,14 @@
     // install rust
     // curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
     // source ~/.bashrc 
-    
     // cargo install --path ./crates/katana --locked --force
+
+    // install starkli
+    // curl https://get.starkli.sh | sh
+    // source ~/.bashrc 
+    // starkliup
+    // 
+
     "postCreateCommand": "",
     "customizations": {
       "codespaces": {
@@ -26,7 +38,8 @@
       "vscode": {
         "extensions": [
           "ms-toolsai.jupyter",
-          "ms-python.python"
+          "ms-python.python",
+          ""
         ]
       }
     }
