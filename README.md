@@ -18,3 +18,6 @@ scarb test
 The output of the test should correspond to the same result in the Jupyter notebooks. 
 I set the number of iterations to be `100` to keep the script consise. Running it for more iterations would lead to a further decrease in loss and better results.
 Learning rate `alpha` and number of iterations are parameters that can be specified by the user.
+
+
+
