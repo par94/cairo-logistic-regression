@@ -5,7 +5,7 @@
 # - 
 
 # base image 🖼️
-FROM ubuntu:latest
+FROM ubuntu:20.04
 
 # install scarb 📦️
 RUN curl --proto '=https' --tlsv1.2 -sSf https://docs.swmansion.com/scarb/install.sh | sh 
